@@ -7,7 +7,5 @@
   <f:entry title="${%Server URL}" field="serverUrl">
     <f:textbox/>
   </f:entry>
-  <f:entry title="${%Call Can Merge}" field="callCanMerge">
-    <f:checkbox default="true"/>
-  </f:entry>
+  <f:optionalBlock title="${%Call Can Merge}" field="callCanMerge" />
 </j:jelly>
